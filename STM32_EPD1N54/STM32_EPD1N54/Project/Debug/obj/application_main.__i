@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\FWLib -I..\User -I..\StartUp -I "e:\Keil\ARM\INC" -I "e:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o ".\Debug\obj\application_main.o" --omf_browse ".\Debug\obj\application_main.crf" --depend ".\Debug\obj\application_main.d" "..\User\application_main.c"
