@@ -1,15 +1,15 @@
-打开Arduino IDE，打开“项目”下拉菜单 ->“加载库”->“添加一个.ZIP库”
-选择EPD1IN54.zip库文件添加。
-打开“文件”下拉菜单 ->“示例”，选择epd1in54-demo例程，编译并上传到开发板。
-开发板与电子纸显示器连接方式如下：
-开发板------------------------------电子纸
-D7--------------------------------Busy
-D8--------------------------------Reset
-D9--------------------------------D/C
-D10-------------------------------CS
-D11-------------------------------SDI
-D13-------------------------------SCLK
-VCC-------------------------------VCC
-GND------------------------------GND
-根据供电电压，设置拨动开关至正确档位。SPI接口默认使用4线接口。
-可从库文件夹keywords.txt文档查找到所需函数。
+Open Arduino IDE, open the "Project" drop-down menu -> "Load Library" -> "Add a .ZIP ibrary".Select the EPD1IN54.zip library file to add.Open the "File" drop-down menu -> "Examples", select the epd1in54-demo routine, compile and upload to the development board.
+
+Wiring:
+
+UNO/2560---------------------------E-PAPER
+  D7--------------------------------Busy
+  D8--------------------------------Reset
+  D9--------------------------------D/C
+  D10-------------------------------CS
+  D11-------------------------------SDI
+  D13-------------------------------SCLK
+  VCC-------------------------------VCC
+  GND------------------------------GND
+
+According to the supply voltage, set the toggle switch to the correct gear. The SPI interface uses a 4-wire interface by default.You can find the required function from the library folder keywords.txt document.
