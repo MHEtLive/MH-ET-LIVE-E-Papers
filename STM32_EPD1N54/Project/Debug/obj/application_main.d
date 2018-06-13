@@ -1,0 +1,17 @@
+.\Debug\obj\application_main.o: ..\User\application_main.c
+.\Debug\obj\application_main.o: ..\User\Display_EPD_W21_spi.h
+.\Debug\obj\application_main.o: ..\StartUp\stm32f10x.h
+.\Debug\obj\application_main.o: ..\StartUp\core_cm3.h
+.\Debug\obj\application_main.o: e:\Keil\ARM\RV31\INC\stdint.h
+.\Debug\obj\application_main.o: ..\StartUp\system_stm32f10x.h
+.\Debug\obj\application_main.o: ..\StartUp\stm32f10x_conf.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_flash.h
+.\Debug\obj\application_main.o: ..\StartUp\stm32f10x.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_gpio.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_iwdg.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_rcc.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_spi.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_tim.h
+.\Debug\obj\application_main.o: ..\FWLib\stm32f10x_usart.h
+.\Debug\obj\application_main.o: ..\FWLib\misc.h
+.\Debug\obj\application_main.o: ..\User\Display_EPD_W21.h
